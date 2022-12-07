@@ -38,6 +38,7 @@
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "typescript": "4.9.2-rc",
     "vite": "^3.2.3"
   }
