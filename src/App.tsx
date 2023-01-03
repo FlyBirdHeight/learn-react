@@ -7,6 +7,12 @@ import StateSet from './components/learning/state_set';
 import LearningProps from './components/learning/props_learning';
 import FormUse from './components/learning/form/form_use';
 import LifeCycle from './components/learning/lifecycle';
+import ReactRef from './components/learning/ref/react_ref';
+import RefFunc from './components/learning/ref/react_ref_func';
+import { GetRef01, GetRef02 } from './components/learning/ref/get_ref';
+import GrandFather from './components/learning/ref/getforwardRef';
+import MergeForwardRefHome from './components/learning/ref/merge_forwardRef';
+import HocForwardRef from './components/learning/ref/hoc_forwardRef';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,8 +44,8 @@ function App() {
       <StateSet /> */}
       {/* <LearningProps /> */}
       {/* <FormUse /> */}
-      <LifeCycle name={name} />
-      <button
+      {/* <LifeCycle name={name} /> */}
+      {/* <button
         onClick={() => {
           handleClick('adsionli');
         }}
@@ -52,7 +58,14 @@ function App() {
         }}
       >
         组件更新(shirley)
-      </button>
+      </button> */}
+      {/* <ReactRef />
+      <RefFunc />
+      <GetRef01 />
+      <GetRef02 /> */}
+      {/* <GrandFather /> */}
+      {/* <MergeForwardRefHome /> */}
+      <HocForwardRef />
     </div>
   );
 }
