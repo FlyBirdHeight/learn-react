@@ -10,9 +10,11 @@ import LifeCycle from './components/learning/lifecycle';
 import ReactRef from './components/learning/ref/react_ref';
 import RefFunc from './components/learning/ref/react_ref_func';
 import { GetRef01, GetRef02 } from './components/learning/ref/get_ref';
-import GrandFather from './components/learning/ref/getforwardRef';
-import MergeForwardRefHome from './components/learning/ref/merge_forwardRef';
-import HocForwardRef from './components/learning/ref/hoc_forwardRef';
+import GrandFather from './components/learning/ref/forward_ref/getforwardRef';
+import MergeForwardRefHome from './components/learning/ref/forward_ref/merge_forwardRef';
+import HocForwardRef from './components/learning/ref/forward_ref/hoc_forwardRef';
+import ObjRefChatFather from './components/learning/ref/char_ref/obj_ref';
+import FuncRefChat from './components/learning/ref/char_ref/func_ref';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -65,7 +67,9 @@ function App() {
       <GetRef02 /> */}
       {/* <GrandFather /> */}
       {/* <MergeForwardRefHome /> */}
-      <HocForwardRef />
+      {/* <HocForwardRef /> */}
+      {/* <ObjRefChatFather /> */}
+      <FuncRefChat />
     </div>
   );
 }
