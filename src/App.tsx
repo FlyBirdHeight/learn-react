@@ -69,7 +69,8 @@ function App() {
       {/* <MergeForwardRefHome /> */}
       {/* <HocForwardRef /> */}
       {/* <ObjRefChatFather /> */}
-      <FuncRefChat />
+      {/* <FuncRefChat /> */}
+      <div className="title-text">你好</div>
     </div>
   );
 }

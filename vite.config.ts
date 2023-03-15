@@ -10,5 +10,16 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, 'src')
     }
+  },
+  server: {
+    host: '0.0.0.0',
+    port: 8854
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: "@import 'src/assets/css/index.module.scss';"
+      }
+    }
   }
 });

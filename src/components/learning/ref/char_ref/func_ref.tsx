@@ -66,6 +66,7 @@ class FuncRefChat extends React.Component {
   render() {
     return (
       <div style={{ marginTop: '50px' }}>
+        <div className="title-text">helloWorld</div>
         <ForwarSon ref={(cur) => (this.cur = cur)} />
         <button onClick={this.handerClick.bind(this)}>操控子组件</button>
       </div>
