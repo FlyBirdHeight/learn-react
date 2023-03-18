@@ -7,4 +7,3 @@ bin
 esm-cjs
 docs
 vite.config.ts
-src/**
