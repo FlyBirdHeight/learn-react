@@ -4,3 +4,4 @@ package.json
 *.d.ts
 tsconfig.json
 vendors
+src/**
