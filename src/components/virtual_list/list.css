@@ -1,0 +1,29 @@
+.list_box {
+  width: 400px;
+  height: 500px;
+}
+
+.list_box .scroll_box {
+  width: 400px;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.list {
+  height: 40px;
+  width: calc(100% - 50px);
+  padding-left: 23px;
+  margin: 5px;
+  text-align: left;
+  line-height: 40px;
+  background-color: salmon;
+  border-radius: 40px;
+  color: white;
+  font-weight: bolder;
+}
+
+.context {
+    position: absolute;
+    top: 0;
+    width: 400px;
+}

@@ -21,6 +21,8 @@ import ShouldUpdateHome from './components/update/shouldUpdate';
 import ReactMemoHome from './components/update/react_memo';
 import CatchComponentError from './components/sync/componentDidCatch';
 import UsingSyncComponent from "./components/sync/timing/using";
+import DrawCircle from "./components/time_slice/draw"
+import VirtualList from './components/virtual_list/virtual_list';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -82,7 +84,9 @@ function App() {
       {/* <ShouldUpdateHome /> */}
       {/* <ReactMemoHome /> */}
       {/* <CatchComponentError /> */}
-      <UsingSyncComponent />
+      {/* <UsingSyncComponent /> */}
+      {/* <DrawCircle /> */}
+      <VirtualList />
     </div>
   );
 }
