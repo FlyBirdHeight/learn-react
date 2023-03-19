@@ -15,10 +15,12 @@ import MergeForwardRefHome from './components/learning/ref/forward_ref/merge_for
 import HocForwardRef from './components/learning/ref/forward_ref/hoc_forwardRef';
 import ObjRefChatFather from './components/learning/ref/char_ref/obj_ref';
 import FuncRefChat from './components/learning/ref/char_ref/func_ref';
-import CacheElement from "./components/update/cachr_element";
-import PureComponentHome from "./components/update/pureComponent";
-import ShouldUpdateHome from "./components/update/shouldUpdate";
-import ReactMemoHome from "./components/update/react_memo";
+import CacheElement from './components/update/cachr_element';
+import PureComponentHome from './components/update/pureComponent';
+import ShouldUpdateHome from './components/update/shouldUpdate';
+import ReactMemoHome from './components/update/react_memo';
+import CatchComponentError from './components/sync/componentDidCatch';
+import UsingSyncComponent from "./components/sync/timing/using";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -78,7 +80,9 @@ function App() {
       {/* <CacheElement /> */}
       {/* <PureComponentHome /> */}
       {/* <ShouldUpdateHome /> */}
-      <ReactMemoHome />
+      {/* <ReactMemoHome /> */}
+      {/* <CatchComponentError /> */}
+      <UsingSyncComponent />
     </div>
   );
 }
